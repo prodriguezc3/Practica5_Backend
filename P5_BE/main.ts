@@ -5,7 +5,7 @@ import { User_M, Post_M, Comment_M } from "./types.ts";
 import { startStandaloneServer } from "@apollo/server/standalone";
 import { resolvers } from "./resolvers.ts";
 
-const MONGO_URL = mongodb+srv://prodriguezc:123456A@cluster0.pwbwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
+const MONGO_URL = "mongodb+srv://prodriguezc:123456A@cluster0.pwbwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
   //Deno.env.get("MONGO_URL");
 
 if (!MONGO_URL) {
